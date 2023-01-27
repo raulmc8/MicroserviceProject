@@ -4,7 +4,7 @@ spring:
   cloud:
     server:
       git:
-        uri:
+        uri: https://github.com/raulmc8/MicroserviceProject.git
         searchPath: config-data
         username: ${GIT_USER}
         password: ${GIT_PASSWORD}
